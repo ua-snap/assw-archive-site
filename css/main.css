@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic");
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 
+/* Add new styles at the bottom of this file! */
 
 html {
     color: #222;
@@ -376,7 +377,7 @@ nav a:hover {
 }
 
 
-/** Custom styles */
+/** ASSW Custom styles */
 
 body {
     font-family: Alegreya Sans, sans-serif;
@@ -395,4 +396,16 @@ a {
     text-decoration: none;
     color: #F37321;
     font-weight: bold;
+}
+
+.wide {
+    width: 100% !important;
+}
+
+.extra {
+    display: none;
+}
+
+.button {
+    cursor: pointer;
 }
