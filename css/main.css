@@ -56,13 +56,13 @@ textarea {
 }
 
 
+
+
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font: 18px/26px Helvetica, Helvetica Neue, Arial;
-}
+
 
 .wrapper {
     width: 90%;
@@ -153,22 +153,6 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -377,25 +361,50 @@ nav a:hover {
 }
 
 
-/** ASSW Custom styles */
+/* ==========================================================================
+   ASSW custom styles
+   ========================================================================== */
 
 body {
     font-family: Alegreya Sans, sans-serif;
+	color: rgb(0,48,91);
 }
 
 h1, h2, h3, h4 {
     font-family: Fjalla One, sans-serif;
+	letter-spacing: .02em;
 }
 
-aside img {
-    width: 100%;
-    margin-bottom: 3em;
+h2, h3, h4 {
+	margin-bottom: 0;
+}
+
+p {
+	margin: .25em 0 .5em 0;
+}
+
+.intro {
+	color: rgb(115,135,169);
+	font-size: 1.4em;
+	line-height: 1.4;
+}
+
+li.news,
+li.extra {
+	font-size: .92em;
 }
 
 a {
     text-decoration: none;
     color: #F37321;
     font-weight: bold;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: rgb(0,48,91);
+	font-weight: 700;
 }
 
 .wide {
@@ -409,3 +418,36 @@ a {
 .button {
     cursor: pointer;
 }
+
+
+
+
+/** Aside block styles */
+
+.main aside {
+	padding: .5em 1.5em;
+	margin: 0 0 1em 0;
+}
+
+.partner {
+	color: rgb(224,180,113);
+	font-size: 1.1em;
+	margin: .25em 0;
+}
+
+ul {
+	margin: 0 0 0 -1em;
+}
+
+li.ambassador {
+	margin: 0;
+	padding: 0;
+	list-style-type: circle;
+}
+
+aside img {
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+
