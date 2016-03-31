@@ -94,6 +94,10 @@ textarea {
     background: #00538D;
 }
 
+footer.wrapper {
+	height: 65px;
+}
+
 .title {
     color: white;
 	text-transform: uppercase;
