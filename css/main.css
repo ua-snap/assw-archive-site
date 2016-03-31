@@ -75,21 +75,31 @@ textarea {
 
 .header-container {
     border-bottom: 20px solid #D2D8E3;
+	background: url('../img/suns.jpg') top repeat-x;
+	height: 250px;
+	text-align: center;
 }
+
+.header-container img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+
 
 .footer-container,
 .main aside {
     border-top: 20px solid #F37321;
-}
-
-.header-container,
-.footer-container,
-.main aside {
     background: #00538D;
 }
 
 .title {
     color: white;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	font-size: 6em;
+	margin: -.25em 0 0 0;
 }
 
 /* ==============
@@ -212,9 +222,7 @@ nav a:hover {
     WIDE: Menu
    ============ */
 
-    .title {
-        float: left;
-    }
+ 
 
     nav {
         float: right;
@@ -246,7 +254,10 @@ nav a:hover {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+	
+
 }
+
 
 /* ==========================================================================
    Helper classes
@@ -405,6 +416,12 @@ a:active,
 a:focus {
 	color: rgb(0,48,91);
 	font-weight: 700;
+}
+
+img {
+	float: left;
+	margin: 0 1.5em .5em 0;
+	max-width: 50%;
 }
 
 .wide {
