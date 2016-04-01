@@ -75,7 +75,7 @@ textarea {
 
 .header-container {
     border-bottom: 20px solid #D2D8E3;
-	background: url('../img/suns.jpg') top repeat-x;
+	background: url('../img/suns-gradient.jpg') top center no-repeat rgb(0,48,91);
 	height: 250px;
 	text-align: center;
 }
