@@ -16,9 +16,18 @@ $(document).ready(function () {
 	});
 
 	$("#toggleNews").on('click', function() {
-		$(".extra").toggle();
+		$(".extra.news").toggle();
 		$("#toggleNews").hide();
 	});
 
+	$("#toggleFellows").on('click', function() {
+		$(".extra.fellows").toggle();
+		$("#toggleFellows").hide();
+	});
+
+	$("#toggleArt").on('click', function() {
+		$(".extra.art").toggle();
+		$("#toggleArt").hide();
+	});
 });
 
