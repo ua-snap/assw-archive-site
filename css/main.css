@@ -148,6 +148,7 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2em;
+	margin: 1em 0 -.15em 0;
 }
 
 .main aside {
