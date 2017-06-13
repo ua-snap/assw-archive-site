@@ -64,26 +64,20 @@ textarea {
 
 
 
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
 /* ===================
     ALL: Orange Theme
    =================== */
 
 .header-container {
     border-bottom: 20px solid #D2D8E3;
-	background: url('../img/suns-gradient.jpg') top center no-repeat rgb(0,48,91);
+	background: url('../img/assw-banner.png') top center no-repeat rgb(0,48,91);
 	height: 250px;
+    max-width: 100%;
 	text-align: center;
 }
 
-.header-container img {
-	max-width: 100%;
-	height: auto;
-	display: inline-block;
+.main-container {
+    max-width: 100%;
 }
 
 
@@ -95,7 +89,16 @@ textarea {
 }
 
 footer.wrapper {
-	height: 65px;
+	height: auto;
+    text-align: center;
+}
+
+footer.wrapper img {
+    float: none;
+}
+
+footer.wrapper p {
+    margin: 0 20px;
 }
 
 .title {
@@ -143,7 +146,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 0 20px;
 }
 
 .main article h1 {
